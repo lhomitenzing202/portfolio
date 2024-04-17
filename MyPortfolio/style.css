@@ -38,7 +38,6 @@
      right: 0;
      width: 100%;
      height: 100%;
-     /* animation: move 5s infinite; */
      animation-delay: 0.4s;
  }
  
@@ -51,14 +50,16 @@
      transition: 0.3s;
  }
  
- .navbar a:hover,
- .navbar a.active {
-     color: #d217cc;
+ .navbar a:hover
+ /* .navbar a.active */
+ 
+ {
+     color: #8d7803;
  }
  
  .home {
      height: 100vh;
-     background: url(images/home.jpg) no-repeat;
+     background: url(images/background1.png) no-repeat;
      background-size: cover;
      background-position: center;
      display: flex;
@@ -79,7 +80,7 @@
  .home-content h3 {
      font-size: 28px;
      font-weight: 700;
-     color: #3ef298;
+     color: #8d7803;
  }
  
  .home-content p {
@@ -103,10 +104,10 @@
      width: 40px;
      height: 40px;
      background: transparent;
-     border: 2px solid #3ef298;
+     border: 2px solid #8d7803;
      border-radius: 50%;
      font-size: 20px;
-     color: #3ef298;
+     color: #8d7803;
      text-decoration: none;
      z-index: 1;
      overflow: hidden;
@@ -124,7 +125,7 @@
      left: 0%;
      width: 0;
      height: 100%;
-     background: #3ef298;
+     background: #8d7803;
      z-index: -1;
      transition: 0.5s;
  }
